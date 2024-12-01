@@ -5,7 +5,7 @@ const VehiculoRoutes = require('./routes/VehiculoRoutes')
 
 
 
-mongoose.connect('mongodb://localhost:27017/EstacionamientoIOT')
+mongoose.connect('mongodb+srv://hansomgonzalez:F5h2QI6lvGZApEUj@cluster0.dmoq3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 .then(() => {
     console.log('Conectado a MongoDB');
 }  )
